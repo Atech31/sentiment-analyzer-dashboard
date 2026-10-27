@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 from textblob import TextBlob
 
-st.set_page_config(page_title="Sentiment Analyzer Dashboard", page_icon="📊", layout="wide")
+st.set_page_config(page_title="Sentiment Analyzer Dashboard", page_icon="", layout="wide")
 
-st.title("📊 Real-Time News & Social Media Sentiment Analyzer")
+st.title("Real-Time News & Social Media Sentiment Analyzer")
 st.markdown("Analyze public sentiment, polarity scores, and category breakdowns using Python & NLP.")
 
 # Sample Social Media / News Data
